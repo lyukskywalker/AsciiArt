@@ -10,7 +10,7 @@ TAAG.shareBox = (function() {
         titleBar = document.createElement("div"),
         formContainer = document.createElement("div"),
         isShown = false,
-        rootUrl = "http://localhost/AsciiArt/",
+        rootUrl = "https://lyukskywalker.github.io/AsciiArt",
         facebookLoaded = false;
     
     shareBoxContainer.style.display = "none";
@@ -60,10 +60,12 @@ TAAG.shareBox = (function() {
     twitterWidget.innerHTML = "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://patorjk.com/software/taag/\" data-via=\"patorjk\">Tweet</a>";
     var googleWidget = document.createElement("div");
     googleWidget.innerHTML = "<div class=\"g-plusone\" data-size=\"small\" data-href=\"http://patorjk.com/software/taag/\"></div>";
-    
+
+    /*    
     td1.appendChild(facebookWidget);
     td2.appendChild(twitterWidget);
     td3.appendChild(googleWidget);
+    */
     
     tr.appendChild(td1);
     tr.appendChild(td2);
